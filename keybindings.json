@@ -1,0 +1,47 @@
+// To see default key bindings, input `Open Default Keyboard Shortcuts` to command paret.
+[
+    // {
+    //   "key": "cmd+b", // Declaration or Usages [IntelliJ]
+    //   "command": "editor.action.goToDeclaration",
+    //   "when": "editorTextFocus" // not depend on editorHasReferenceProvider
+    // },
+    {
+        "key": "cmd+b", // Declaration or Usages [IntelliJ]
+        "command": "editor.action.goToReferences",
+        "when": "editorTextFocus" // not depend on editorHasReferenceProvider
+    },
+    {
+        "key": "alt+cmd+b", // Implementations [IntelliJ]
+        "command": "editor.action.goToImplementation",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+alt+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+shift+enter",
+        "command": "workbench.action.terminal.focus",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+shift+enter",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.terminal.newInActiveWorkspace",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+0",
+        "command": "workbench.action.zoomReset"
+    }
+]
