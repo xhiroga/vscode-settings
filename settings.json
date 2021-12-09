@@ -1,6 +1,8 @@
 {
+    "editor.inlineSuggest.enabled": true, // GitHub Copilot
     "editor.largeFileOptimizations": true, // Disable syntax highlight when open large files.
     "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "files.associations": {
@@ -9,5 +11,7 @@
     },
     "git.autofetch": true,
     "git.confirmSync": false,
-    "terminal.integrated.scrollback": 50000
+    "terminal.integrated.scrollback": 50000,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
 }
