@@ -9,9 +9,28 @@
         "*.gs": "javascript", // Google App Script
         "Jenkinsfile*": "groovy"
     },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
     "git.autofetch": true,
     "git.confirmSync": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
     "terminal.integrated.scrollback": 50000,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+    "redhat.telemetry.enabled": false,
+    "workbench.editorAssociations": {
+        "*.plist": "default"
+    },
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow": "/.github/workflows/**/*.yml"
+    }
 }
